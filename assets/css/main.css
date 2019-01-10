@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff url("images/bg.jpg") center bottom;
+		background: url("images/bg.jpg") center bottom;
 		overflow: hidden;
 	}
 
@@ -148,7 +148,7 @@ input, select, textarea {
 
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") center bottom;
+		background: url("images/bg.jpg") center bottom;
 		background-size: cover;
 		height: 100%;
 		right: 0;
