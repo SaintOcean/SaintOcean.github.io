@@ -113,23 +113,40 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: inherit;
+		color: white;
 		outline: 0;
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-color: transparent;
+
+
+		.button {
+		  background-color: transparent; /* Green */
+		  border: 2px solid white;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 24px;
 		}
+
+		.button:hover {
+			background-color: rgba(255, 255, 255, 0.175);
+		}
+
+
 
 /* Icon */
 
 	.icon {
+
 		text-decoration: none;
 		position: relative;
 	}
 
 		.icon:before {
+			color: #FFFF;
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
