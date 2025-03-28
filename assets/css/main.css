@@ -27,7 +27,8 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: flex;
+	justify-content: center;}
 
 body {
 	line-height: 1;
@@ -60,10 +61,19 @@ mark {
 	color: inherit;
 }
 
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
+
+iframe{
+	aspect-ratio : 16/9;
+	width:100% ;
+	height: auto;
+	max-width: 1060px !important;
+}
+
 
 input, select, textarea {
 	-moz-appearance: none;
@@ -544,6 +554,8 @@ input, select, textarea {
 		width: 100%;
 	}
 
+
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -553,6 +565,8 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
+
+
 
 		#bg {
 			background-size: cover;
@@ -564,6 +578,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		/* Basic */
+
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -582,6 +597,9 @@ input, select, textarea {
 
 		/* Basic */
 
+
+
+
 			body {
 				min-width: 320px;
 			}
@@ -589,6 +607,10 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+
+
+
+
 
 		/* BG */
 
@@ -606,6 +628,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 		}
+
 
 		#header nav {
 			font-size: 1em;
@@ -625,6 +648,7 @@ input, select, textarea {
 
 		/* BG */
 
+
 		#bg {
 			background-size: cover;
 
@@ -634,5 +658,6 @@ input, select, textarea {
 	/* Header */
 
 		#header nav {
+
 			padding: 0 1em;
 		} }
