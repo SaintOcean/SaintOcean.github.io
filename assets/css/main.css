@@ -69,7 +69,7 @@ input::-moz-focus-inner {
 
 iframe{
 	aspect-ratio : 16/9;
-	width:100% ;
+	width:33%;
 	height: auto;
 	max-width: 1060px !important;
 }
@@ -93,7 +93,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: url("images/bg.jpg") center bottom;
+		background: url("images/bg3.jpg") center bottom;
 		overflow: hidden;
 	}
 
@@ -175,18 +175,18 @@ input, select, textarea {
 
 	/* Set your background with this */
 
-		background: url("images/bg.jpg") center bottom;
+		background: url("images/bg3.jpg") center bottom;
 		background-size: cover;
 		height: 100%;
-		right: 0;
+		left: 0;
 		opacity: 1;
 		position: fixed;
-		top: 0;
+		bottom: 0;
 	}
 
 	#bg{
 				background-size: cover;
-				width: 2000px;
+				width: 3445px;
 	}
 
 /* Main */
@@ -597,6 +597,12 @@ input, select, textarea {
 
 		/* Basic */
 
+		iframe{
+			aspect-ratio : 16/9;
+			width:100%;
+			height: auto;
+			max-width: 1060px !important;
+		}
 
 
 
